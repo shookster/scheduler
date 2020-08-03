@@ -31,7 +31,25 @@
     <div class="container">
       <!-- Timeblocks go here -->
     </div>
+    <script src="moment.js">
+      function todaysDate() {
+        var todaysDate = moment().format("dddd, MMMM Do, YYYY");
+        $("#currentDay").text(todaysDate);
+      }
+      todaysDate();
+    </script>
 
+    <script>
+      function todaysDate() {
+        var todaysDate = moment().format("dddd, MMMM Do, YYYY");
+        $("#currentDay").text(todaysDate);
+      }
+      todaysDate();
+
+<script>
+    moment().format();
+</script>
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
