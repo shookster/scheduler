@@ -2,6 +2,8 @@
 
 A simple organizational tool to schedule out your workday. Enter appointments into the text field and save with the button on the right.
 
+[Link](https://shookster.github.io/scheduler/Develop/index.html)
+
 
 The following animation demonstrates the application functionality:
 
